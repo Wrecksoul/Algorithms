@@ -68,15 +68,5 @@ public class MinStack<T> {
 		stack.push(0);
 		System.out.println(stack);
 	}
-	
-	class MyObjectComparator implements Comparator<Utils>{
-
-		@Override
-		public int compare(Utils o1, Utils o2) {
-			
-			return 0;
-		}
-		
-	}
 
 }

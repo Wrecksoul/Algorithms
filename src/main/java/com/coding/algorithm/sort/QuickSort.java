@@ -1,7 +1,7 @@
 package com.coding.algorithm.sort;
 
 /**
- * 快速排序是不稳定的，其时间复杂度是O(nlgn)
+ *
  * 
  * @author Walker
  */
@@ -23,9 +23,9 @@ public class QuickSort {
 	}
 
 	/**
-	 * 一次分治
-	 * @param left 首节点下标
-	 * @param right 末节点下标
+	 *
+	 * @param left
+	 * @param right
 	 * @param arr
 	 * @return
 	 */

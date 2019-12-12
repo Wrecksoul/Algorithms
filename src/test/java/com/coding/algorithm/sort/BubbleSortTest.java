@@ -8,7 +8,7 @@ import org.junit.Test;
 public class BubbleSortTest {
 
 	@Test
-	public void testSort() {
+	public void sort() {
 		int[] arr = {5,4,2,1,3};
 		int[] expecteds = {1,2,3,4,5};
 		BubbleSort.sort(arr);

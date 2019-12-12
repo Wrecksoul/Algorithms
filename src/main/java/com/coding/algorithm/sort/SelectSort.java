@@ -2,8 +2,8 @@ package com.coding.algorithm.sort;
 import static com.coding.algorithm.sort.Utils.*;
 
 /**
- * sort 升序方法
- * 选择排序，从第一（最后一个）个元素开始，每次选择最小（大）元素跟当前元素交换位置，一共需要找length-1个最大值
+ * sort
+ *
  * @author Walker
  */
 public class SelectSort {
