@@ -1,4 +1,4 @@
-package com.coding.algorithm;
+package com.coding.algorithm.leetcode;
 
 import com.coding.algorithm.sort.Utils;
 import org.junit.Test;

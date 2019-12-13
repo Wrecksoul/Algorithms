@@ -1,4 +1,4 @@
-package com.coding.algorithm;
+package com.coding.algorithm.leetcode;
 
 /**
  * @author mengxiangzhe
