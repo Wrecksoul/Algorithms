@@ -15,5 +15,7 @@ public class MaximumSubarrayTest {
         MaximumSubarray maximumSubarray = new MaximumSubarray();
         int maxSum = maximumSubarray.maxSubArray(new int[]{87, 2, -4, 4, 3, 93});
         assertTrue(maxSum == 185);
+        int maxSum2 = maximumSubarray.maxSubArray(new int[]{-1, 2, -4, 4, 3, 93});
+        assertTrue(maxSum2 == 100);
     }
 }

@@ -7,7 +7,7 @@ package com.coding.algorithm.leetcode;
 public class MaximumSubarray {
     public int maxSubArray(int[] nums) {
 
-        int sum = Integer.MIN_VALUE;
+        int sum = 0;
         int maxSum = Integer.MIN_VALUE;
 
         for (int num : nums) {
