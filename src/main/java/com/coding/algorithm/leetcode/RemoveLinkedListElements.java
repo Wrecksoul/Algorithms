@@ -1,5 +1,7 @@
 package com.coding.algorithm.leetcode;
 
+import com.coding.algorithm.leetcode.tool.ListNode;
+
 /**
  * @author mengxiangzhe
  * @date 2020/2/1
@@ -23,15 +25,5 @@ public class RemoveLinkedListElements {
             cur = cur.next;
         }
         return head;
-    }
-}
-
-
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode(int x) {
-        val = x;
     }
 }

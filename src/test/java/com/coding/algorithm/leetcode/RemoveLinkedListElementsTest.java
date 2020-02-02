@@ -1,7 +1,9 @@
 package com.coding.algorithm.leetcode;
 
-import org.junit.Assert;
+import com.coding.algorithm.leetcode.tool.ListNode;
 import org.junit.Test;
+
+import static org.junit.Assert.assertTrue;
 
 /**
  * @author mengxiangzhe
@@ -26,11 +28,11 @@ public class RemoveLinkedListElementsTest {
         l5.next = l6;
         l6.next = l7;
         int[] expectArr1 = new int[]{1, 2, 6, 3, 4, 5, 6};
-        Assert.assertTrue(isEqualList(l1, expectArr1));
+        assertTrue(isEqualList(l1, expectArr1));
         ListNode listNode = test.removeElements(l1, 6);
         int[] expectArr2 = new int[]{1, 2, 3, 4, 5};
 
-        Assert.assertTrue(isEqualList(listNode, expectArr2));
+        assertTrue(isEqualList(listNode, expectArr2));
     }
 
     private boolean isEqualList(ListNode listNode, int[] expect) {
