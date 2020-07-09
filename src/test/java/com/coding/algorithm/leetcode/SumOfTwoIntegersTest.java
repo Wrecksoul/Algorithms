@@ -16,6 +16,7 @@ public class SumOfTwoIntegersTest {
         assertEquals(5, test.getSum(2, 3));
         assertEquals(5, test.getSum2(5, 0));
         assertEquals(-7, test.getSubtract(-1, 6));
+        assertEquals(4, test.getSubtract(10, 6));
         assertEquals(-7, test.getSubtract2(-1, 6));
         assertEquals(-6, test.negate(6));
     }

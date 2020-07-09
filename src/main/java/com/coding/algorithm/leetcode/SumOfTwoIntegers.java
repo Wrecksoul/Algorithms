@@ -42,7 +42,7 @@ public class SumOfTwoIntegers {
 
     // Recursive
     public int getSubtract2(int a, int b) {
-        return (b == 0) ? a : getSubtract(a ^ b, (~a & b) << 1);
+        return (b == 0) ? a : getSubtract2(a ^ b, (~a & b) << 1);
     }
 
     // Get negative number
