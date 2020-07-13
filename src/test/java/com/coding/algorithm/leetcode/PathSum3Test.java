@@ -1,5 +1,6 @@
 package com.coding.algorithm.leetcode;
 
+import com.coding.algorithm.leetcode.tool.TreeNode;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

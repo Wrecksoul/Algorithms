@@ -1,6 +1,8 @@
 package com.coding.algorithm.leetcode;
 
 
+import com.coding.algorithm.leetcode.tool.TreeNode;
+
 /**
  * @author mengxiangzhe
  * @date 2019/12/13
@@ -17,17 +19,5 @@ public class MaximumDepthOfBinaryTree {
         TreeNode right = root.right;
 
         return 1+Math.max(maxDepth(left), maxDepth(right));
-    }
-}
-
-
-/*Definition for a binary tree node.*/
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode(int x) {
-        val = x;
     }
 }
